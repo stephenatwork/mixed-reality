@@ -42,7 +42,7 @@ await QRCodeWatcher.RequestAccessAsync();
 
 _C++:_
 ```cpp
-co_await QRCodeWatcher.RequestAccessAsync();
+co_await QRCodeWatcher::RequestAccessAsync();
 ```
 
 Permission must be requested before you construct a QRCodeWatcher object.
